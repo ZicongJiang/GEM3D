@@ -62,7 +62,7 @@ scan_content_template = `
           <!-- 3D model. -->
           <div class="columns is-centered has-text-centered">
             <div class="column is-full_width">
-              <h2 class="title is-4">Reconstructed 3D model</h2>
+              <h2 class="title is-4">Texturized 3D model</h2>
               <model-viewer alt="Scan scaind Mesh"
                 exposure=".35 " shadow-intensity="1" shadow-softness="1"
                 orientation = "orientation-string"
