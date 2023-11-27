@@ -63,7 +63,7 @@ scan_content_template = `
           <div class="columns is-centered has-text-centered">
             <div class="column is-full_width">
               <h2 class="title is-4">Texturized 3D model</h2>
-              <model-viewer alt="Scan scaind Mesh"
+              <model-viewer alt="Scan scanid Mesh"
                 exposure=".35 " shadow-intensity="1" shadow-softness="1"
                 orientation = "orientation-string"
                 src="https://raw.githubusercontent.com/ZicongJiang/GEM3D/main/static/scanid.glb"
