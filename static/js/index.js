@@ -66,7 +66,7 @@ scan_content_template = `
               <model-viewer alt="Scan scaind Mesh"
                 exposure=".35 " shadow-intensity="1" shadow-softness="1"
                 orientation = "orientation-string"
-                src="https://github.com/ZicongJiang/GEM3D/tree/main/static/bunny.glb"
+                src="https://raw.githubusercontent.com/ZicongJiang/GEM3D/main/static/bunny.glb"
                 style="width: 100%; height: 600px; background-color: #404040"
                 poster="https://github.com/IVRL/VolRecon/raw/main/imgs/teaser.jpg" auto-rotate camera-controls
                 ar-status="not-presenting"></model-viewer>
@@ -113,10 +113,10 @@ $(document).ready(function () {
 
 
 var transforms = {
-  24: "0 0 230deg",
-  63: "0deg 210deg 300deg",
-  65: "0deg 200deg 270deg",
-  69: "0deg 210deg 290deg",
+  'strawberry cake': "0 0 230deg",
+  'blueberry cake': "0deg 210deg 300deg",
+  'mango cake': "0deg 200deg 270deg",
+  // 69: "0deg 210deg 290deg",
 };
 
 
