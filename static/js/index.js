@@ -68,7 +68,7 @@ scan_content_template = `
                 orientation = "orientation-string"
                 src="https://raw.githubusercontent.com/ZicongJiang/GEM3D/main/static/scanid.glb"
                 style="width: 100%; height: 600px; background-color: #404040"
-                poster="https://github.com/IVRL/VolRecon/raw/main/imgs/teaser.jpg" auto-rotate camera-controls
+                poster="https://github.com/ZicongJiang/GEM3D/tree/main/static/images/teaser.png" auto-rotate camera-controls
                 ar-status="not-presenting"></model-viewer>
             </div>
           </div>
@@ -114,8 +114,8 @@ $(document).ready(function () {
 
 var transforms = {
   'strawberry cake': "0 0 230deg",
-  'blueberry cake': "0deg 210deg 300deg",
-  'mango cake': "0deg 200deg 270deg",
+  'blueberry cake': "0 0 230deg",
+  'mango cake': "0 0 230deg",
   // 69: "0deg 210deg 290deg",
 };
 
