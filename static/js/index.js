@@ -4,7 +4,7 @@
 // With additional modifications based on: https://jsfiddle.net/7sk5k4gp/13/
 
 
-var scans = ['strawberry_cake','blueberry_cake','mango_cake'];
+var scans = ['strawberry cake','blueberry cake','mango cake'];
 
 
 scan_selection_template = `
@@ -113,9 +113,9 @@ $(document).ready(function () {
 
 
 var transforms = {
-  'strawberry_cake': "0 0 230deg",
-  'blueberry_cake': "0deg 210deg 300deg",
-  'mango_cake': "0deg 200deg 270deg",
+  'strawberry cake': "0 0 230deg",
+  'blueberry cake': "0deg 210deg 300deg",
+  'mango cake': "0deg 200deg 270deg",
   // 69: "0deg 210deg 290deg",
 };
 
